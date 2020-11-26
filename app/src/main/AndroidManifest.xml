@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mariamusman.fyp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/brain"
+        android:label="@string/app_name_app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".CaregiverForm" />
+        <activity android:name=".PatientForm" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:parentActivityName=".Home">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity android:name=".Games" />
+        <activity android:name=".Progress" />
+        <activity android:name=".Tools" />
+        <activity android:name=".WellBeing" />
+        <activity android:name=".Namaaz" />
+        <activity android:name=".Location" />
+        <activity android:name=".CaregiverHome" />
+        <activity android:name=".SelectGameProgress" />
+        <activity android:name=".ProblemProgress" />
+        <activity android:name=".SpeedProgress" />
+        <activity android:name=".MemoryProgress" />
+        <activity android:name=".AttentionProgress" />
+        <activity android:name=".PatientProfile"></activity>
+    </application>
+
+</manifest>

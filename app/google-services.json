@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "411639087878",
+    "firebase_url": "https://buildingbrain-57349.firebaseio.com",
+    "project_id": "buildingbrain-57349",
+    "storage_bucket": "buildingbrain-57349.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411639087878:android:22a75b30c9d3b554",
+        "android_client_info": {
+          "package_name": "com.example.mariamusman.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411639087878-t11fnniek2qomqn4i041h4u8hf6blmct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsJBV0gT8n0GxNGeAUbucOI0sqO3PKS04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

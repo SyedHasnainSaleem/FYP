@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fyp.colorsplash">
+
+
+    <application>
+    <activity android:name=".MainActivity"/>
+    <activity android:name=".ChooseAnswer" />
+    <activity android:name=".FinishedActivity"></activity>
+    </application>
+
+
+</manifest>

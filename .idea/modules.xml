@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alarm/alarm.iml" filepath="$PROJECT_DIR$/.idea/modules/alarm/alarm.iml" group="brainbuilding/alarm" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="brainbuilding/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brainbuilding.iml" filepath="$PROJECT_DIR$/.idea/modules/brainbuilding.iml" group="brainbuilding" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/colorsplash/colorsplash.iml" filepath="$PROJECT_DIR$/.idea/modules/colorsplash/colorsplash.iml" group="brainbuilding/colorsplash" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/duaagame/duaagame.iml" filepath="$PROJECT_DIR$/.idea/modules/duaagame/duaagame.iml" group="brainbuilding/duaagame" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/location/location.iml" filepath="$PROJECT_DIR$/.idea/modules/location/location.iml" group="brainbuilding/location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/memory/memory.iml" filepath="$PROJECT_DIR$/.idea/modules/memory/memory.iml" group="brainbuilding/memory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/namaz/namaz.iml" filepath="$PROJECT_DIR$/.idea/modules/namaz/namaz.iml" group="brainbuilding/namaz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/numberdrill/numberdrill.iml" filepath="$PROJECT_DIR$/.idea/modules/numberdrill/numberdrill.iml" group="brainbuilding/numberdrill" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quiz/quiz.iml" filepath="$PROJECT_DIR$/.idea/modules/quiz/quiz.iml" group="brainbuilding/quiz" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quiz2/quiz2.iml" filepath="$PROJECT_DIR$/.idea/modules/quiz2/quiz2.iml" group="brainbuilding/quiz2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/todo/todo.iml" filepath="$PROJECT_DIR$/.idea/modules/todo/todo.iml" group="brainbuilding/todo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wellbeingrecipies/wellbeingrecipies.iml" filepath="$PROJECT_DIR$/.idea/modules/wellbeingrecipies/wellbeingrecipies.iml" group="brainbuilding/wellbeingrecipies" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workout/workout.iml" filepath="$PROJECT_DIR$/.idea/modules/workout/workout.iml" group="brainbuilding/workout" />
+    </modules>
+  </component>
+</project>

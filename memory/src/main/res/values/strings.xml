@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Memory Application</string>
+    <string name="about">ABOUT</string>
+    <string name="match_the_same_pairs_as_fast_as_possible_lesser_the_time_active_the_brain">Match the same pairs as fast as possible. Lesser the time active the brain.</string>
+    <string name="back">Back</string>
+</resources>

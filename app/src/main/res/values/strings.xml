@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name_app"> Building Brains </string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="submit"> Submit </string>
+    <string name="input_error_fname">name required</string>
+    <string name="input_error_lname">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="input_error_age">enter a valid age</string>
+    <string name="input_error_dob">enter a valid dob</string>
+    <string name="patient_profile"><u>Patient Profile</u></string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/home"
+        android:title="Home"
+        android:orderInCategory="100"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />-->
+</menu>

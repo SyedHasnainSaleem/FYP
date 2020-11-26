@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mariamusman.fyp.Home"
+    android:background="#ffffff">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorTeal"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"/>
+
+    <Button
+        android:id="@+id/progressBtnC"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Progress"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/profileBtnC"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:text="Patient Profile"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnGames"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Games"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btnLocat"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Location"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/btnTools"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mybutton"
+        android:text="Tools"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/btnWB"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/mybutton"
+        android:text="WellBeing"
+        android:textSize="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnNz"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/mybutton"
+        android:text="Namaaz"
+        android:textSize="10dp" />
+
+</RelativeLayout>

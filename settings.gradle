@@ -1,0 +1,1 @@
+include ':app', ':duaagame', ':quiz', ':quiz2', ':numberdrill', ':namaz', ':memory', ':wellbeingrecipies', ':todo', ':alarm', ':colorsplash', ':workout', ':location'

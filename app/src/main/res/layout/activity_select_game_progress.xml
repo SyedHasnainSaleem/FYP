@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectGameProgress">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorTeal"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"/>
+
+    <Button
+        android:id="@+id/progressBtnSpeed"
+        android:layout_width="154dp"
+        android:layout_height="107dp"
+        android:layout_above="@+id/btnTools"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/mybutton"
+        android:text="SPEED"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/progressBtnAttention"
+        android:layout_width="154dp"
+        android:layout_height="107dp"
+        android:layout_above="@+id/btnTools"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/mybutton"
+        android:text="Attention"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/progressBtnProb"
+        android:layout_width="154dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/progressBtnSpeed"
+        android:background="@drawable/mybutton"
+        android:text="Problem Solving"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/progressBtnMemory"
+        android:layout_width="154dp"
+        android:layout_height="107dp"
+        android:layout_below="@+id/progressBtnAttention"
+        android:layout_alignTop="@+id/progressBtnProb"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/mybutton"
+        android:text="Memory"
+        android:textSize="20dp" />
+
+</RelativeLayout>

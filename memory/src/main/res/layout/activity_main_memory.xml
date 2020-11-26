@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="MEMORY TEST"
+        android:textAlignment="center"
+        android:textColor="#0b3524"
+        android:textSize="70dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/btn_about"
+        android:layout_alignEnd="@+id/btn_about"
+        android:layout_alignRight="@+id/btn_about"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/rounded_edge"
+        android:text="Play"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:background="@drawable/rounded_edge"
+        android:text="about"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+</RelativeLayout>
